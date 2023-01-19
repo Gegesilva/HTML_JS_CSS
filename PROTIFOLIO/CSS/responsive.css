@@ -1,0 +1,27 @@
+@media (max-width: 1000px) {
+    main, header {
+        width: 100%;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-content{
+        width: 100%;
+        align-items: center;
+
+        margin-bottom: 15%;
+    }
+
+    main .main-content .text, .techs{
+        text-align: center;
+
+    }
+    main .main-content .text p{
+        width: 100%;
+        font-size: 0.9em;
+    }
+    main .techs .cards-container, .main-content .text p{
+        margin-top: 32px;
+    }
+}
